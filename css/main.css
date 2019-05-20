@@ -1,0 +1,21 @@
+/* GENERAL STYLES */
+/*
+gold - 966D32
+gray - A8A2A4*/
+
+body {
+	background-color: #201E21;
+}
+
+p {
+	color: white;
+}
+
+section {
+	max-width: 800px;
+	margin: auto;
+}
+
+pre {
+	background-color: white;
+}
