@@ -1,6 +1,9 @@
-function magic(){
-	document.getElementById('es6').classList.add("magic")
-}
+var themes = ["lion", "snake", "bird", "badger"];
 
-document.getElementById("wand").addEventListener("click", magic);
+document.getElementById('theme-change').onclick = function() {
+	var randomNum = Math.floor(Math.random() * (3 - -1));
+	console.log(randomNum);
+	document.getElementById('body').className = "";
+	document.getElementById('body').classList.add(themes[randomNum]);
+};
 
