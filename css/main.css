@@ -40,6 +40,10 @@ main {
   main {
     padding: 15px;
   }
+  p {
+    font-size: 18px;
+    line-height: 1.2;
+  }
 }
 
 body.badger main {
