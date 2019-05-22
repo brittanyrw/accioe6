@@ -48,13 +48,37 @@ header p {
   margin: 20px auto;
 }
 
+pre {
+	width: 100%;
+}
+
 .code-block {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 30px;
+  
+}
+@media screen and (min-width: 992px){
+	.code-block {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+.wand {
+	width: 30px;
+	cursor: pointer;
 }
 
 .js, .es6 {
   background-color: #444;
   color: white;
+}
+
+.es6 {
+	display: none;
+}
+
+.magic {
+	display: block;
+	transition: .5s;
 }
