@@ -36,6 +36,16 @@ main {
   border: 5px solid white;
 }
 
+@media screen and (max-width: 425px){
+  main {
+    padding: 30px 15px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+}
+
 body.badger main {
   background-color: #ECAF1F;
   color: black;
