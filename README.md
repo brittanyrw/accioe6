@@ -1,2 +1,2 @@
-# accioes6
-A wizard themed guide to ES6.
+# acciojs
+A wizard themed guide to JavaScript.
