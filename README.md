@@ -1,2 +1,2 @@
 # acciojs
-A wizard themed guide to JavaScript.
+A wizard themed introduction to JavaScript.
